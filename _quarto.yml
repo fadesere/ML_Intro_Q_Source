@@ -30,6 +30,8 @@ format:
     code-copy: true
     execute: 
       enabled: true
+    anchor-sections: true
+    smooth-scroll: true
   pdf:
     documentclass: scrreport
     papersize: letter

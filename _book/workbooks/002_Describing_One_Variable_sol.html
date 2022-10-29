@@ -125,6 +125,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     "search-submit-button-title": "Submit"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
@@ -938,7 +939,7 @@ Name: Pclass, dtype: int64</code></pre>
 </div>
 <section id="countplots" class="level4" data-number="2.3.0.1">
 <h4 data-number="2.3.0.1" class="anchored" data-anchor-id="countplots"><span class="header-section-number">2.3.0.1</span> Countplots</h4>
-<p>We can also use a very simple visualization to see the counts broken down.</p>
+<p>We can also use a very simple visualization to see the counts broken down. Each tab holds the same countplot, the difference in the second one is that we added an argument for “hue”, which is a common argument in seaborn graphs that separates the data by whatever you put there. Here we gave it the “Survived” variable, so each of the bars is split into survived/died subsets.</p>
 <div class="panel-tabset" data-group="python">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Countplot</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Countplot - Split</a></li></ul>
 <div class="tab-content" data-group="python">
@@ -1417,4 +1418,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
