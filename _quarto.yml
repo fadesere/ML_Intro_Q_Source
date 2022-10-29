@@ -6,6 +6,9 @@ title: "ML_Intro_Q_source"
 book:    
   author: "Akeem Semper"
   date: "01-Apr-2023"
+  format: pdf
+  execute: 
+      enabled: true
   chapters:
     - index.qmd
     - workbooks/001_Setup.ipynb
