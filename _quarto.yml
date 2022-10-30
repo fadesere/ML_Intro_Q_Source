@@ -6,7 +6,17 @@ title: "ML_Intro_Q_source"
 book:    
   author: "Akeem Semper"
   date: "01-Apr-2023"
-  format:
+  chapters:
+    - index.qmd
+    - workbooks/001_Setup.ipynb
+    - workbooks/002_Describing_One_Variable_sol.ipynb
+    - references.qmd
+  format: 
+    pdf:
+      documentclass: scrreport
+      papersize: letter
+      execute: 
+        enabled: true
     html:
       output-dir: _output
       css: styles.css
@@ -14,25 +24,11 @@ book:
       theme:
         light: flatly
         dark: darkly
-      code-overflow: wrap
       code-copy: true
-      code-fold: true
-      code-tools: true
-      code-line-numbers: true
       execute: 
         enabled: true
       anchor-sections: true
       smooth-scroll: true
-    pdf:
-      documentclass: scrreport
-      papersize: letter
-  execute: 
-      enabled: true
-  chapters:
-    - index.qmd
-    - workbooks/001_Setup.ipynb
-    - workbooks/002_Describing_One_Variable_sol.ipynb
-    - references.qmd
 
 toc: true
 number-sections: true

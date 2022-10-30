@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Preface</title>
+<title>2&nbsp; Stats Basics - Describing One Variable</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -136,7 +136,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Preface</h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Stats Basics - Describing One Variable</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -166,7 +166,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../workbooks/002_Describing_One_Variable_sol.html" class="sidebar-item-text sidebar-link active">ML_Intro_Q_source</a>
+  <a href="../workbooks/002_Describing_One_Variable_sol.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">ML_Intro_Q_source</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -183,27 +183,24 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#stats-basics---describing-one-variable" id="toc-stats-basics---describing-one-variable" class="nav-link active" data-scroll-target="#stats-basics---describing-one-variable">Stats Basics - Describing One Variable</a>
+  <li><a href="#storing-data---dataframes" id="toc-storing-data---dataframes" class="nav-link active" data-scroll-target="#storing-data---dataframes"><span class="toc-section-number">2.1</span>  Storing Data - Dataframes</a>
   <ul class="collapse">
-  <li><a href="#storing-data---dataframes" id="toc-storing-data---dataframes" class="nav-link" data-scroll-target="#storing-data---dataframes">Storing Data - Dataframes</a>
+  <li><a href="#slicing-dataframes" id="toc-slicing-dataframes" class="nav-link" data-scroll-target="#slicing-dataframes"><span class="toc-section-number">2.1.1</span>  Slicing Dataframes</a></li>
+  <li><a href="#slicing-by-rows" id="toc-slicing-by-rows" class="nav-link" data-scroll-target="#slicing-by-rows"><span class="toc-section-number">2.1.2</span>  Slicing by Rows</a></li>
+  </ul></li>
+  <li><a href="#types-of-data" id="toc-types-of-data" class="nav-link" data-scroll-target="#types-of-data"><span class="toc-section-number">2.2</span>  Types of Data</a></li>
+  <li><a href="#counts-of-categorical-variables" id="toc-counts-of-categorical-variables" class="nav-link" data-scroll-target="#counts-of-categorical-variables"><span class="toc-section-number">2.3</span>  Counts of Categorical Variables</a></li>
+  <li><a href="#distribution-of-numerical-variables" id="toc-distribution-of-numerical-variables" class="nav-link" data-scroll-target="#distribution-of-numerical-variables"><span class="toc-section-number">2.4</span>  Distribution of Numerical Variables</a></li>
+  <li><a href="#distributions" id="toc-distributions" class="nav-link" data-scroll-target="#distributions"><span class="toc-section-number">2.5</span>  Distributions</a>
   <ul class="collapse">
-  <li><a href="#slicing-dataframes" id="toc-slicing-dataframes" class="nav-link" data-scroll-target="#slicing-dataframes">Slicing Dataframes</a></li>
-  <li><a href="#slicing-by-rows" id="toc-slicing-by-rows" class="nav-link" data-scroll-target="#slicing-by-rows">Slicing by Rows</a></li>
+  <li><a href="#types-of-distributions" id="toc-types-of-distributions" class="nav-link" data-scroll-target="#types-of-distributions"><span class="toc-section-number">2.5.1</span>  Types of Distributions</a></li>
+  <li><a href="#seaborn-matplotlib-and-graphing" id="toc-seaborn-matplotlib-and-graphing" class="nav-link" data-scroll-target="#seaborn-matplotlib-and-graphing"><span class="toc-section-number">2.5.2</span>  Seaborn, Matplotlib, and Graphing</a></li>
   </ul></li>
-  <li><a href="#types-of-data" id="toc-types-of-data" class="nav-link" data-scroll-target="#types-of-data">Types of Data</a></li>
-  <li><a href="#counts-of-categorical-variables" id="toc-counts-of-categorical-variables" class="nav-link" data-scroll-target="#counts-of-categorical-variables">Counts of Categorical Variables</a></li>
-  <li><a href="#distribution-of-numerical-variables" id="toc-distribution-of-numerical-variables" class="nav-link" data-scroll-target="#distribution-of-numerical-variables">Distribution of Numerical Variables</a></li>
-  <li><a href="#distributions" id="toc-distributions" class="nav-link" data-scroll-target="#distributions">Distributions</a>
+  <li><a href="#outliers" id="toc-outliers" class="nav-link" data-scroll-target="#outliers"><span class="toc-section-number">2.6</span>  Outliers</a>
   <ul class="collapse">
-  <li><a href="#types-of-distributions" id="toc-types-of-distributions" class="nav-link" data-scroll-target="#types-of-distributions">Types of Distributions</a></li>
-  <li><a href="#seaborn-matplotlib-and-graphing" id="toc-seaborn-matplotlib-and-graphing" class="nav-link" data-scroll-target="#seaborn-matplotlib-and-graphing">Seaborn, Matplotlib, and Graphing</a></li>
+  <li><a href="#dealing-with-outliers" id="toc-dealing-with-outliers" class="nav-link" data-scroll-target="#dealing-with-outliers"><span class="toc-section-number">2.6.1</span>  Dealing with Outliers</a></li>
   </ul></li>
-  <li><a href="#outliers" id="toc-outliers" class="nav-link" data-scroll-target="#outliers">Outliers</a>
-  <ul class="collapse">
-  <li><a href="#dealing-with-outliers" id="toc-dealing-with-outliers" class="nav-link" data-scroll-target="#dealing-with-outliers">Dealing with Outliers</a></li>
-  </ul></li>
-  <li><a href="#where-are-we-now" id="toc-where-are-we-now" class="nav-link" data-scroll-target="#where-are-we-now">Where Are We Now?</a></li>
-  </ul></li>
+  <li><a href="#where-are-we-now" id="toc-where-are-we-now" class="nav-link" data-scroll-target="#where-are-we-now"><span class="toc-section-number">2.7</span>  Where Are We Now?</a></li>
   </ul>
 </nav>
     </div>
@@ -212,7 +209,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Preface</h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Stats Basics - Describing One Variable</span></h1>
 </div>
 
 
@@ -231,8 +228,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<section id="stats-basics---describing-one-variable" class="level1">
-<h1>Stats Basics - Describing One Variable</h1>
 <p>The first step on our statistical journey is to look at how we can describe one variable at a time.</p>
 There are a few things that we can focus on here:
 <ul>
@@ -246,8 +241,8 @@ Basic statistics describing data.
 Distributions and visualizations.
 </li></ul>
 <p>In short, we want to be able to load in a dataset, manipulate it to get what we care about, and look at the data (starting with one variable) to see what it says. This is a near universal starting point for doing machine learning, it all starts with the data, so gaining some understanding of that data will help us out.</p>
-<section id="storing-data---dataframes" class="level2">
-<h2 class="anchored" data-anchor-id="storing-data---dataframes">Storing Data - Dataframes</h2>
+<section id="storing-data---dataframes" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="storing-data---dataframes"><span class="header-section-number">2.1</span> Storing Data - Dataframes</h2>
 We’ll load the Titanic data from last time into a dataframe again. Dataframes are one of our most commonly used data structures (thing that stores a bunch of data in an organized way). We can think of a dataframe as a well formatted spreadsheet:
 <ul>
 <li>
@@ -364,8 +359,8 @@ Each cell is one value.
 </div>
 </div>
 </div>
-<section id="slicing-dataframes" class="level3">
-<h3 class="anchored" data-anchor-id="slicing-dataframes">Slicing Dataframes</h3>
+<section id="slicing-dataframes" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="slicing-dataframes"><span class="header-section-number">2.1.1</span> Slicing Dataframes</h3>
 <p>We can select different parts of a dataframe at a time. Most commonly, we want to get one or more of the columns. We can use the column names to get what we want. There are multiple ways to do this, but we will almost always settle on the last one.</p>
 <p>Suppose we want the column of “Survived” - 0 for Leo, 1 for Kate.</p>
 <div class="cell" data-execution_count="3">
@@ -426,8 +421,8 @@ Name: Survived, Length: 891, dtype: int64</code></pre>
 Name: Survived, Length: 891, dtype: int64</code></pre>
 </div>
 </div>
-<section id="exercise" class="level4">
-<h4 class="anchored" data-anchor-id="exercise">Exercise</h4>
+<section id="exercise" class="level4" data-number="2.1.1.1">
+<h4 data-number="2.1.1.1" class="anchored" data-anchor-id="exercise"><span class="header-section-number">2.1.1.1</span> Exercise</h4>
 <p>Challenge - print multiple columns. Such as Survived and Age!</p>
 <p>You may need to Google, think about what to Google and try to implement what you find. Try to Speculate why the formatting might be a little different here than for one variable.</p>
 <div class="cell" data-execution_count="6">
@@ -509,8 +504,8 @@ Name: Survived, Length: 891, dtype: int64</code></pre>
 </div>
 </section>
 </section>
-<section id="slicing-by-rows" class="level3">
-<h3 class="anchored" data-anchor-id="slicing-by-rows">Slicing by Rows</h3>
+<section id="slicing-by-rows" class="level3" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="slicing-by-rows"><span class="header-section-number">2.1.2</span> Slicing by Rows</h3>
 <p>We can also select rows from a dataframe. This is generally less important for most of the things that we do. We can select the specific rows we want, or give a condition to filter by. This is effectively the same as using the filter feature in Excel.</p>
 <div class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the first 5 rows, like the head() command.</span></span>
@@ -871,8 +866,8 @@ Name: Survived, Length: 891, dtype: int64</code></pre>
 </div>
 </section>
 </section>
-<section id="types-of-data" class="level2">
-<h2 class="anchored" data-anchor-id="types-of-data">Types of Data</h2>
+<section id="types-of-data" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="types-of-data"><span class="header-section-number">2.2</span> Types of Data</h2>
 We have several different types of data that we may need to deal with. The most important split is the difference between categorical data and numerical data. This is one thing that we need to be very comfortable with:
 <ul>
 <li>
@@ -889,8 +884,8 @@ Rule of thumb - if you would “group by” a value, it is normally categorical.
 </li></ul>
 </li></ul>
 <p>Usually determining which data type our data falls into is relatively easy, but there are some scenarios where it isn’t. Most notably, numbers are often used to denote group types, so they sometimes act as categorical values. For example, if we were to group people by their nationality and label those groups 1, 2, 3, etc… that is a use of a numerical variable as a categorical value. We will need to do things like this later on.</p>
-<section id="python-data-types" class="level4">
-<h4 class="anchored" data-anchor-id="python-data-types">Python Data Types</h4>
+<section id="python-data-types" class="level4" data-number="2.2.0.1">
+<h4 data-number="2.2.0.1" class="anchored" data-anchor-id="python-data-types"><span class="header-section-number">2.2.0.1</span> Python Data Types</h4>
 Every programming language has a few built in data types that it naturally supports. Some important and common ones are:
 <ul>
 <li>
@@ -918,8 +913,8 @@ Bool - true/false.
 </div>
 </section>
 </section>
-<section id="counts-of-categorical-variables" class="level2">
-<h2 class="anchored" data-anchor-id="counts-of-categorical-variables">Counts of Categorical Variables</h2>
+<section id="counts-of-categorical-variables" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="counts-of-categorical-variables"><span class="header-section-number">2.3</span> Counts of Categorical Variables</h2>
 <p>When dealing with categorical variables the most important thing that we can know is how many times each value occurs.</p>
 <div class="cell" data-execution_count="11">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">"Pclass"</span>].value_counts()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -936,8 +931,8 @@ Name: Pclass, dtype: int64</code></pre>
 <pre><code>0</code></pre>
 </div>
 </div>
-<section id="countplots" class="level4">
-<h4 class="anchored" data-anchor-id="countplots">Countplots</h4>
+<section id="countplots" class="level4" data-number="2.3.0.1">
+<h4 data-number="2.3.0.1" class="anchored" data-anchor-id="countplots"><span class="header-section-number">2.3.0.1</span> Countplots</h4>
 <p>We can also use a very simple visualization to see the counts broken down. Each tab holds the same countplot, the difference in the second one is that we added an argument for “hue”, which is a common argument in seaborn graphs that separates the data by whatever you put there. Here we gave it the “Survived” variable, so each of the bars is split into survived/died subsets.</p>
 <div class="panel-tabset" data-group="python">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Countplot</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Countplot - Split</a></li></ul>
@@ -970,8 +965,8 @@ Name: Pclass, dtype: int64</code></pre>
 </div>
 </section>
 </section>
-<section id="distribution-of-numerical-variables" class="level2">
-<h2 class="anchored" data-anchor-id="distribution-of-numerical-variables">Distribution of Numerical Variables</h2>
+<section id="distribution-of-numerical-variables" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="distribution-of-numerical-variables"><span class="header-section-number">2.4</span> Distribution of Numerical Variables</h2>
 <p>Probably the most critical thing we can know about a numerical variable is its distribution - or how many times different values occur.</p>
 <p>We can also get these statistics individually. This time I added print statements, this just makes the program print more than one output, if all the print statements are left our we’d only get the last one.</p>
 This is one place where we can easily see multiple ways to do things, which is very common in programming. Specifically, we have several sets of functions that do basic math. Here we have an example of probably the two most common ones:
@@ -983,8 +978,8 @@ Numpy - this library has a bunch of useful math-y stuff.
 </li></ul>
 <p>Note the difference in how the code is structured for each one, this is due to <b><i>where</i></b> these functions come from. The pandas ones are called by stating DATFRAME.FUNCTION() - this is because the functions “are part of” pandas, so we can tell it to basically “find the mean function for this object (the df)” and the program will look inside of Pandas for that thing. This works because the dataframe has its own mean/std/count function built into it. The numpy ones are more generic, and we call them by saying LIBRARY.FUNCTION(DATA). This is because these are not part of the dataframe, we are calling a generic function and feeding it our data. We don’t need a dataframe to use this, we can feed it (almost) any data - lists, arrays, series, etc… since it is not part of an object. This basic split is something that is pretty universal in most programming languages, it feels arbitrary at first but it does become natural over time.</p>
 <p><b>Note:</b> the median below and the 50% above are the same. The median is the value “in the middle” - half of the values are higher, half lower.</p>
-<section id="examples-of-basic-stats-functions." class="level4">
-<h4 class="anchored" data-anchor-id="examples-of-basic-stats-functions.">Examples of Basic Stats Functions.</h4>
+<section id="examples-of-basic-stats-functions." class="level4" data-number="2.4.0.1">
+<h4 data-number="2.4.0.1" class="anchored" data-anchor-id="examples-of-basic-stats-functions."><span class="header-section-number">2.4.0.1</span> Examples of Basic Stats Functions.</h4>
 <div class="panel-tabset" data-group="python">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Describe</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Pandas</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Numpy</a></li></ul>
 <div class="tab-content" data-group="python">
@@ -1046,16 +1041,16 @@ Std. Dev:  49.66553444477411</code></pre>
 </div>
 </section>
 </section>
-<section id="distributions" class="level2">
-<h2 class="anchored" data-anchor-id="distributions">Distributions</h2>
+<section id="distributions" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="distributions"><span class="header-section-number">2.5</span> Distributions</h2>
 <p>When looking at a variable, calculating things like the mean or median is useful, but very incomplete. We probably want to know more about the values and how frequently they occur - something called the distribution.</p>
 <p>Distributions are one of the fundamental concepts of statistics, one that well use constantly. We’ll dig into them a bunch more over the next few sessions.</p>
-<section id="types-of-distributions" class="level3">
-<h3 class="anchored" data-anchor-id="types-of-distributions">Types of Distributions</h3>
+<section id="types-of-distributions" class="level3" data-number="2.5.1">
+<h3 data-number="2.5.1" class="anchored" data-anchor-id="types-of-distributions"><span class="header-section-number">2.5.1</span> Types of Distributions</h3>
 <p>Distributions commonly follow patterns, and we can use these paterns to help us build an understanding of our own data.</p>
 <p>We will look more at specific distributions in more detail soon, for now, we can think of distributions as describing the shape of the data, or how it is distributed over the range.</p>
-<section id="histograms" class="level4">
-<h4 class="anchored" data-anchor-id="histograms">Histograms</h4>
+<section id="histograms" class="level4" data-number="2.5.1.1">
+<h4 data-number="2.5.1.1" class="anchored" data-anchor-id="histograms"><span class="header-section-number">2.5.1.1</span> Histograms</h4>
 The histogram is the most common tool used to examine a distribution. A histogram is a specialized type of bar chart that is always structured in the same way:
 <ul>
 <li>
@@ -1065,8 +1060,8 @@ The Y axis is a count of how many times that value occurs.
 </li></ul>
 <p>Histograms will be one of our most frequently used visualizations - luckily they are pretty simple.</p>
 </section>
-<section id="seaborn-and-graphing" class="level4">
-<h4 class="anchored" data-anchor-id="seaborn-and-graphing">Seaborn and Graphing</h4>
+<section id="seaborn-and-graphing" class="level4" data-number="2.5.1.2">
+<h4 data-number="2.5.1.2" class="anchored" data-anchor-id="seaborn-and-graphing"><span class="header-section-number">2.5.1.2</span> Seaborn and Graphing</h4>
 <p>There are many, many packages that allow us to draw charts and visualizations in Python. The main one we’ll focus on is called Seaborn. Seaborn is a package of graphing and charting tools that makes it relatively easy to make pretty charts.</p>
 <p>Seaborn is not the only choice, but it is common, pretty, and easy, so we’ll stick with it for the most part.</p>
 <p>There are several types of graphs that we can look at to picture the distribution of our data.</p>
@@ -1121,8 +1116,8 @@ The Y axis is a count of how many times that value occurs.
 </div>
 </section>
 </section>
-<section id="seaborn-matplotlib-and-graphing" class="level3">
-<h3 class="anchored" data-anchor-id="seaborn-matplotlib-and-graphing">Seaborn, Matplotlib, and Graphing</h3>
+<section id="seaborn-matplotlib-and-graphing" class="level3" data-number="2.5.2">
+<h3 data-number="2.5.2" class="anchored" data-anchor-id="seaborn-matplotlib-and-graphing"><span class="header-section-number">2.5.2</span> Seaborn, Matplotlib, and Graphing</h3>
 <p>We can do something similar with the underlying functionality of Seaborn - matplotlib and pyplot. Matplotlib is the “granddaddy” of graphing in Python, and the entire Seaborn package is built on top of it. The mpl stuff is generally less fancy looking and more confusing to use, but we do need to be at least a bit aware of it.</p>
 Why is this important?
 <ul>
@@ -1144,11 +1139,11 @@ One of the key things that makes programming a usefull thing is the ability to h
 </div>
 </section>
 </section>
-<section id="outliers" class="level2">
-<h2 class="anchored" data-anchor-id="outliers">Outliers</h2>
+<section id="outliers" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="outliers"><span class="header-section-number">2.6</span> Outliers</h2>
 <p>Outliers are values that are “far outside the norm”, or basically values that fall to the extreme left of extreme right of our distribution.</p>
-<section id="dealing-with-outliers" class="level3">
-<h3 class="anchored" data-anchor-id="dealing-with-outliers">Dealing with Outliers</h3>
+<section id="dealing-with-outliers" class="level3" data-number="2.6.1">
+<h3 data-number="2.6.1" class="anchored" data-anchor-id="dealing-with-outliers"><span class="header-section-number">2.6.1</span> Dealing with Outliers</h3>
 <p>Dealing with outliers is always a matter of judgement - sometimes an outlier is real and relevant, so we want to keep it in; sometimes an outlier is an error or misleading, so we want to remove it.</p>
 As a rule of thumb, we can think of what to do outliers like this:
 <ul>
@@ -1174,8 +1169,8 @@ If the outlier is going to skew our results, and will make predictions less accu
 </div>
 </section>
 </section>
-<section id="where-are-we-now" class="level2">
-<h2 class="anchored" data-anchor-id="where-are-we-now">Where Are We Now?</h2>
+<section id="where-are-we-now" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="where-are-we-now"><span class="header-section-number">2.7</span> Where Are We Now?</h2>
 At this point, we are hopefully becoming moderately comfortable with:
 <ul>
 <li>
@@ -1187,7 +1182,6 @@ Starting to use calculations and visualizations to describe data.
 </li></ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
