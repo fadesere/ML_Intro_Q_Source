@@ -6,7 +6,26 @@ title: "ML_Intro_Q_source"
 book:    
   author: "Akeem Semper"
   date: "01-Apr-2023"
-  format: pdf
+  format:
+    html:
+      output-dir: _output
+      css: styles.css
+      html-math-method: katex
+      theme:
+        light: flatly
+        dark: darkly
+      code-overflow: wrap
+      code-copy: true
+      code-fold: true
+      code-tools: true
+      code-line-numbers: true
+      execute: 
+        enabled: true
+      anchor-sections: true
+      smooth-scroll: true
+    pdf:
+      documentclass: scrreport
+      papersize: letter
   execute: 
       enabled: true
   chapters:
@@ -18,20 +37,3 @@ book:
 toc: true
 number-sections: true
 jupyter: python3
-
-format:
-  html:
-    output-dir: _output
-    css: styles.css
-    html-math-method: katex
-    theme:
-      light: flatly
-      dark: darkly
-    code-copy: true
-    execute: 
-      enabled: true
-    anchor-sections: true
-    smooth-scroll: true
-  pdf:
-    documentclass: scrreport
-    papersize: letter
