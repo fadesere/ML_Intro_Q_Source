@@ -1,17 +1,9 @@
 project:
   type: book
-
-title: "ML_Intro_Q_source"
-
 book:    
   author: "Akeem Semper"
   date: "01-Apr-2023"
-  format:
-    pdf:
-      documentclass: scrreport
-      papersize: letter
-  execute: 
-      enabled: true
+  title: "ML_Intro_Q_source"
   chapters:
     - index.qmd
     - workbooks/001_Setup.ipynb
@@ -21,6 +13,8 @@ book:
 toc: true
 number-sections: true
 jupyter: python3
+execute: 
+  enabled: true
 
 format:
   html:
@@ -35,3 +29,7 @@ format:
       enabled: true
     anchor-sections: true
     smooth-scroll: true
+  pdf:
+    documentclass: scrreport
+  epub:
+    cover-image: cover.png
