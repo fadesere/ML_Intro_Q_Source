@@ -25,11 +25,15 @@ format:
       light: flatly
       dark: darkly
     code-copy: true
+    code-fold: true
     execute: 
       enabled: true
+      echo: false
     anchor-sections: true
     smooth-scroll: true
   pdf:
     documentclass: scrreport
   epub:
     cover-image: cover.png
+  docx:
+    highlight-style: github
